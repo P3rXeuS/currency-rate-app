@@ -5,7 +5,7 @@ const CurrencyTable = () => {
   const [exchangeRates, setExchangeRates] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [newCurrency, setNewCurrency] = useState({ currency: '', rate: '' });
-  const API_KEY = 'API KEY'; // API KEY
+  const API_KEY = import.meta.env.VITE_API_KEY; // API KEY
 
   useEffect(() => {
     const fetchExchangeRates = async () => {
