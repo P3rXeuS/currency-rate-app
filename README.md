@@ -1,8 +1,12 @@
-# React + Vite
+# Display Rate Currency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+in this small project called Display Rate Currency
+I used REACT + VITE
+TAILWIND
 
-Currently, two official plugins are available:
+ This project uses 3rd party API from (https://currencyfreaks.com/) and displays currency based on the value of 1 USD.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Currency = the name of the currency
+- We Buy = the value is 5% greater than the Exchange Rate
+- Exchange Rate = the exchange rate obtained from the API, and
+- We Sell -= the value is 5% smaller than the Exchange Rate
